@@ -8,5 +8,8 @@ class TestCase(unittest.TestCase):
     def testTwo(self):
         self.assertEqual(leapYear.isLeapYear(100),False)
 
+    def testThree(self):
+        self.assertEqual(leapYear.isLeapYear(2021),False)
+
 if __name__ == '__main__':
     unittest.main()
